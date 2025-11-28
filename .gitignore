@@ -1,0 +1,35 @@
+# --- Python Virtual Environment ---
+myenv/
+venv/
+.env/
+*.env
+
+# --- Python Cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- OS / System Files ---
+.DS_Store
+
+# --- VSCode ---
+.vscode/
+
+# --- Model / Data Files (optional, include only if large) ---
+*.pkl
+*.joblib
+
+# --- Logs ---
+*.log
+
+# --- Streamlit ---
+.streamlit/
+
+# --- Jupyter (if used) ---
+.ipynb_checkpoints/
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
