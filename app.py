@@ -6,7 +6,7 @@ import pandas as pd
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "phonePred.pkl")
+MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
 
 artifacts = joblib.load(MODEL_PATH)
 
