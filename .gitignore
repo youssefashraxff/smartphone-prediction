@@ -17,7 +17,7 @@ __pycache__/
 .vscode/
 
 # --- Model / Data Files (optional, include only if large) ---
-*.pkl
+
 *.joblib
 
 # --- Logs ---
