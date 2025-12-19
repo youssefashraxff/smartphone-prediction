@@ -3,7 +3,13 @@ import joblib
 import pandas as pd
 
 # Load trained objects
-artifacts = joblib.load("phonePred.pkl")
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "phonePred.pkl")
+
+artifacts = joblib.load(MODEL_PATH)
+
 pipeline = artifacts["pipeline"]
 label_encoder = artifacts["label_encoder"]
 features_list = artifacts["features"]
